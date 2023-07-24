@@ -16,7 +16,21 @@ body {
 
 .display {
     grid-area: 1 / 1 / 2 / 5;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+    justify-items: end;
+    align-items: center;
 }
+
+.topNum {
+    font-size: 40px;
+}
+
+.botNum {
+    font-size: 60px;
+}
+
+
 
 .span-4 {
     grid-column: 4 / 5;
